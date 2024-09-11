@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-pip install flask statsmodels pmdarima sklearn
-
 from flask import Flask, request, jsonify
 import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
