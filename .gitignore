@@ -1,0 +1,23 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Ignore virtual environments
+env/
+venv/
+__pycache__/
+
+# Ignore hidden files and folders
+.*
+!/.gitignore
+
+# Ignore OneDrive and user directories
+OneDrive*/
+Documents*/
+Downloads*/
+Desktop*/
+AppData*/
+Saved Games*/
